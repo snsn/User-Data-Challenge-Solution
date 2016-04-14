@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DHUserData.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.users = [[NSMutableArray alloc] init];
+    
+    for (NSDictionary *userData in [DHUserData users])
+    {
+        NSLog(@"returned data is %@", userData);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
