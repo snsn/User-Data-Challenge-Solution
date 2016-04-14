@@ -15,6 +15,7 @@
 		C9C3C55B1CBFF9AA00A1D6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C5591CBFF9AA00A1D6F7 /* LaunchScreen.storyboard */; };
 		C9C3C5661CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C5651CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionTests.m */; };
 		C9C3C5711CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C5701CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionUITests.m */; };
+		C9C3C5831CBFFA4B00A1D6F7 /* DHUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C5821CBFFA4B00A1D6F7 /* DHUserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C9C3C56C1CBFF9AB00A1D6F7 /* User Data Challenge SolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data Challenge SolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C3C5701CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionUITests.m; sourceTree = "<group>"; };
 		C9C3C5721CBFF9AB00A1D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C3C5811CBFFA4B00A1D6F7 /* DHUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUserData.h; sourceTree = "<group>"; };
+		C9C3C5821CBFFA4B00A1D6F7 /* DHUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C9C3C54A1CBFF9AA00A1D6F7 /* User Data Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				C9C3C5841CBFFA5200A1D6F7 /* Model */,
 				C9C3C54E1CBFF9AA00A1D6F7 /* AppDelegate.h */,
 				C9C3C54F1CBFF9AA00A1D6F7 /* AppDelegate.m */,
 				C9C3C5511CBFF9AA00A1D6F7 /* ViewController.h */,
@@ -138,6 +142,16 @@
 				C9C3C5721CBFF9AB00A1D6F7 /* Info.plist */,
 			);
 			path = "User Data Challenge SolutionUITests";
+			sourceTree = "<group>";
+		};
+		C9C3C5841CBFFA5200A1D6F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9C3C5811CBFFA4B00A1D6F7 /* DHUserData.h */,
+				C9C3C5821CBFFA4B00A1D6F7 /* DHUserData.m */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C3C5831CBFFA4B00A1D6F7 /* DHUserData.m in Sources */,
 				C9C3C5531CBFF9AA00A1D6F7 /* ViewController.m in Sources */,
 				C9C3C5501CBFF9AA00A1D6F7 /* AppDelegate.m in Sources */,
 				C9C3C54D1CBFF9AA00A1D6F7 /* main.m in Sources */,
