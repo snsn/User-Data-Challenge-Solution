@@ -10,4 +10,11 @@
 
 @implementation DHUserData
 
++(NSArray *)users
+{
+    NSMutableArray *userList = [@[] mutableCopy];
+    
+    return userList;
+}
+
 @end

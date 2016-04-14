@@ -10,4 +10,6 @@
 
 @interface DHUserData : NSObject
 
++(NSArray *)users;
+
 @end
