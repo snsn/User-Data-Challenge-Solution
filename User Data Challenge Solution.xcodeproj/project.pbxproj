@@ -16,6 +16,10 @@
 		C9C3C5661CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C5651CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionTests.m */; };
 		C9C3C5711CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C5701CBFF9AB00A1D6F7 /* User_Data_Challenge_SolutionUITests.m */; };
 		C9C3C5831CBFFA4B00A1D6F7 /* DHUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C5821CBFFA4B00A1D6F7 /* DHUserData.m */; };
+		C9C3C58C1CC0006800A1D6F7 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C5881CC0006800A1D6F7 /* person1.jpeg */; };
+		C9C3C58D1CC0006800A1D6F7 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C5891CC0006800A1D6F7 /* person2.jpeg */; };
+		C9C3C58E1CC0006800A1D6F7 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C58A1CC0006800A1D6F7 /* person3.jpg */; };
+		C9C3C58F1CC0006800A1D6F7 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C58B1CC0006800A1D6F7 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		C9C3C5721CBFF9AB00A1D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9C3C5811CBFFA4B00A1D6F7 /* DHUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUserData.h; sourceTree = "<group>"; };
 		C9C3C5821CBFFA4B00A1D6F7 /* DHUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUserData.m; sourceTree = "<group>"; };
+		C9C3C5881CC0006800A1D6F7 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		C9C3C5891CC0006800A1D6F7 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		C9C3C58A1CC0006800A1D6F7 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		C9C3C58B1CC0006800A1D6F7 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 		C9C3C54B1CBFF9AA00A1D6F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9C3C5881CC0006800A1D6F7 /* person1.jpeg */,
+				C9C3C5891CC0006800A1D6F7 /* person2.jpeg */,
+				C9C3C58A1CC0006800A1D6F7 /* person3.jpg */,
+				C9C3C58B1CC0006800A1D6F7 /* person4.jpeg */,
 				C9C3C54C1CBFF9AA00A1D6F7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -260,9 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C3C58E1CC0006800A1D6F7 /* person3.jpg in Resources */,
+				C9C3C58C1CC0006800A1D6F7 /* person1.jpeg in Resources */,
 				C9C3C55B1CBFF9AA00A1D6F7 /* LaunchScreen.storyboard in Resources */,
 				C9C3C5581CBFF9AA00A1D6F7 /* Assets.xcassets in Resources */,
+				C9C3C58F1CC0006800A1D6F7 /* person4.jpeg in Resources */,
 				C9C3C5561CBFF9AA00A1D6F7 /* Main.storyboard in Resources */,
+				C9C3C58D1CC0006800A1D6F7 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
