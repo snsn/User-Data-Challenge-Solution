@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DHUserData.h"
+#import "DHUserObject.h"
 
 @interface ViewController ()
 
@@ -29,6 +30,26 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark UITableView Data Source
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"UserCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    NSDictionary *user = self.users[indexPath.row];
+    cell.textLabel.text = user[USER_NAME];
+    cell.detailTextLabel.text = user[EMAIL];
+    cell.imageView.image = user[PROFILE_PICTURE];
+    
+    return cell;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.users count];
 }
 
 @end
