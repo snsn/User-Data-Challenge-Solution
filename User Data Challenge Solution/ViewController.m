@@ -23,8 +23,11 @@
     
     for (NSDictionary *userData in [DHUserData users])
     {
-        NSLog(@"returned data is %@", userData);
+        [self.users addObject:userData];
     }
+    
+    self.userTableview.dataSource = self;
+    self.userTableview.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
