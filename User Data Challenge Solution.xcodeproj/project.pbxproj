@@ -20,6 +20,7 @@
 		C9C3C58D1CC0006800A1D6F7 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C5891CC0006800A1D6F7 /* person2.jpeg */; };
 		C9C3C58E1CC0006800A1D6F7 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C58A1CC0006800A1D6F7 /* person3.jpg */; };
 		C9C3C58F1CC0006800A1D6F7 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C58B1CC0006800A1D6F7 /* person4.jpeg */; };
+		C9C3C6211CC08A9300A1D6F7 /* DHUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C6201CC08A9300A1D6F7 /* DHUserObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		C9C3C5891CC0006800A1D6F7 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
 		C9C3C58A1CC0006800A1D6F7 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
 		C9C3C58B1CC0006800A1D6F7 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
+		C9C3C61F1CC08A9300A1D6F7 /* DHUserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHUserObject.h; path = "User Data Challenge Solution/DHUserObject.h"; sourceTree = "<group>"; };
+		C9C3C6201CC08A9300A1D6F7 /* DHUserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHUserObject.m; path = "User Data Challenge Solution/DHUserObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 		C9C3C5841CBFFA5200A1D6F7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C9C3C61F1CC08A9300A1D6F7 /* DHUserObject.h */,
+				C9C3C6201CC08A9300A1D6F7 /* DHUserObject.m */,
 				C9C3C5811CBFFA4B00A1D6F7 /* DHUserData.h */,
 				C9C3C5821CBFFA4B00A1D6F7 /* DHUserData.m */,
 			);
@@ -304,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C3C5831CBFFA4B00A1D6F7 /* DHUserData.m in Sources */,
+				C9C3C6211CC08A9300A1D6F7 /* DHUserObject.m in Sources */,
 				C9C3C5531CBFF9AA00A1D6F7 /* ViewController.m in Sources */,
 				C9C3C5501CBFF9AA00A1D6F7 /* AppDelegate.m in Sources */,
 				C9C3C54D1CBFF9AA00A1D6F7 /* main.m in Sources */,
@@ -530,6 +536,7 @@
 				C9C3C5771CBFF9AB00A1D6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9C3C5781CBFF9AB00A1D6F7 /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +545,7 @@
 				C9C3C57A1CBFF9AB00A1D6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9C3C57B1CBFF9AB00A1D6F7 /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +554,7 @@
 				C9C3C57D1CBFF9AB00A1D6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
