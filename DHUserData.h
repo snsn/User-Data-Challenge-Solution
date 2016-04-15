@@ -12,7 +12,7 @@
 #define EMAIL @"email"
 #define PASSWORD @"password"
 #define AGE @"age"
-#define PROFILE_PICTURE @"profile picture"
+#define PROFILE_PICTURE @"profilePicture"
 
 @interface DHUserData : NSObject
 
